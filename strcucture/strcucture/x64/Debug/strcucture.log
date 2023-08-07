@@ -1,0 +1,3 @@
+﻿  structure.c
+C:\Users\h\source\repos\strcucture\strcucture\structure.c(51,24): warning C4047: “初始化”:“char”与“char [2]”的间接级别不同
+  strcucture.vcxproj -> C:\Users\h\source\repos\strcucture\x64\Debug\strcucture.exe
