@@ -1,0 +1,10 @@
+﻿  Add.c
+  function1.c
+C:\Users\h\source\repos\function\function\function1.c(209,16): warning C4047: “函数”:“const char *const ”与“int”的间接级别不同
+C:\Users\h\source\repos\function\function\function1.c(209,12): warning C4024: “printf”: 形参和实参 1 的类型不同
+C:\Users\h\source\repos\function\function\function1.c(216,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+C:\Users\h\source\repos\function\function\function1.c(216,8): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+C:\Users\h\source\repos\function\function\function1.c(216,8): message : 缺失的可变参数 1 为格式字符串“%d”所需
+C:\Users\h\source\repos\function\function\function1.c(218,12): warning C4047: “函数”:“const char *const ”与“unsigned int”的间接级别不同
+C:\Users\h\source\repos\function\function\function1.c(218,9): warning C4024: “printf”: 形参和实参 1 的类型不同
+C:\Users\h\source\repos\function\function\function1.c(216,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
