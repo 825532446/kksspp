@@ -152,28 +152,74 @@
 //
 //}
 
+//#include<assert.h>
+//void my_strcpy(char* dest, char* src)
+//{
+//	assert(dest != NULL);//断言
+//	assert(src != NULL);
+//
+//		while (*dest++ = *src++)
+//		{
+//
+//			;
+//		}
+//
+//
+//
+//}
+//
+//int main() {
+//
+//
+//	char arr1[] = "########";
+//	char arr2[] = "bit";
+//	my_strcpy(arr1, arr2);
+//	printf("%s\n", arr1);
+//}
+
+//#include<assert.h>
+//char* my_strcpy(char* dest, const char* src)
+//{
+//	char* ret = dest;
+//	assert(dest != NULL);//断言
+//	assert(src != NULL);
+////把src指向的字符串拷贝到dest，包含'\0'字符
+//	while (*dest++ = *src++)
+//	{
+//
+//		;
+//	}
+//
+//	return ret;
+//
+//}
+//
+//int main() {
+//
+//
+//	char arr1[] = "########";
+//	char arr2[] = "bit";
+//	my_strcpy(arr1, arr2);
+//	printf("%s\n", my_strcpy(arr1, arr2));
+//}
+
 #include<assert.h>
-void my_strcpy(char* dest, char* src)
+my_strlen(const char *str) {
+
+	int count = 0; 
+	assert(str != NULL);//保证指针有效性
+	while (str!='\0')
+	{
+
+		count++;
+		str++;
+	}
+
+}
+int main()
 {
-	assert(dest != NULL);//断言
-	assert(src != NULL);
-
-		while (*dest++ = *src++)
-		{
-
-			;
-		}
-
-
-
+	char arr[] = "abcdef";
+	int len = my_strlen(arr);
+	printf("%d\n");
+	return 0;
 }
-
-int main() {
-
-
-	char arr1[] = "########";
-	char arr2[] = "bit";
-	my_strcpy(arr1, arr2);
-	printf("%s\n", arr1);
-}
-
