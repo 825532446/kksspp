@@ -1,0 +1,5 @@
+﻿  point.c
+C:\Users\h\source\repos\point_improve\point_improve\point.c(432,6): warning C4273: “qsort”: dll 链接不一致
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_search.h(60,23): message : 参见“qsort”的前一个定义
+C:\Users\h\source\repos\point_improve\point_improve\point.c(518,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“Stu”
+  point_improve.vcxproj -> C:\Users\h\source\repos\point_improve\x64\Debug\point_improve.exe
