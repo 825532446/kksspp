@@ -1,1 +1,5 @@
-﻿  point_topic.vcxproj -> E:\c语言程序\source\repos\point_topic\Debug\point_topic.exe
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:column /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /FC /errorReport:prompt test.c
+  test.c
+  point_topic.vcxproj -> E:\c语言程序\source\repos\point_topic\Debug\point_topic.exe
